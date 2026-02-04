@@ -23,6 +23,7 @@ Ideal for quickly cleaning up accumulated spam and deleted messages with a singl
 - 🖱️ Simple single-click toolbar button
 - ⚡ Efficient batch deletion with fallback to individual message handling
 - 🔧 Compatible with current Thunderbird MailExtension APIs
+- 🛡️ Smart folder detection with fallback for servers like Yahoo that don't properly declare folder types
 
 ## Requirements
 - Thunderbird ESR 140.x or newer with MailExtension support
@@ -92,6 +93,7 @@ thunderbird-trash-bulk-delete/
 - 🔍 Local account detection relies on `acc.type === "none"`; adjust if you have custom setups
 - ⚠️ Messages are permanently deleted from Trash/Junk folders (though Ctrl+Z works immediately after)
 - 📝 Batch deletion may fail on some servers; extension falls back to individual message deletion with error logging
+- 🔒 Fallback folder detection (for Yahoo and similar) only applies to root-level folders for security
 
 ## Security and Privacy
 - 🔒 No data sent to external servers
