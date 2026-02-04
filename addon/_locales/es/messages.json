@@ -1,0 +1,26 @@
+{
+  "extensionName": {
+    "message": "Eliminar Papelera"
+  },
+  "extensionDescription": {
+    "message": "Elimina todos los mensajes de las carpetas Papelera y Spam (excepto local)."
+  },
+  "logStart": {
+    "message": "Eliminando mensajes de Papelera y Spam..."
+  },
+  "logDeleted": {
+    "message": "Mensaje con asunto \"{subject}\" ha sido eliminado."
+  },
+  "logNoLocalAccount": {
+    "message": "Cuenta local no encontrada."
+  },
+  "logComplete": {
+    "message": "Operación completada: {count} mensaje(s) eliminado(s)."
+  },
+  "logError": {
+    "message": "Error al eliminar el mensaje {id}: {error}"
+  },
+  "logAlreadyRunning": {
+    "message": "Eliminación ya en curso, por favor espere..."
+  }
+}

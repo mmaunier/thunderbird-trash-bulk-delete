@@ -19,7 +19,7 @@ Ideal for quickly cleaning up accumulated spam and deleted messages with a singl
 - 🗑️ Permanently deletes messages (no intermediate moving)
 - 🔄 Supports undo action (Ctrl+Z) via `isUserAction` flag
 - 📊 Detailed error logging for troubleshooting
-- 🌍 Partial internationalization support (German, English, French)
+- 🌍 Internationalization support (DE, EN, ES, FR, IT, JA)
 - 🖱️ Simple single-click toolbar button
 - ⚡ Efficient batch deletion with fallback to individual message handling
 - 🔧 Compatible with current Thunderbird MailExtension APIs
@@ -64,7 +64,10 @@ These permissions are required to scan folders and delete messages from Trash an
 **Supported languages:**
 - 🇩🇪 German: `_locales/de/messages.json`
 - 🇬🇧 English: `_locales/en/messages.json`
+- �🇸 Spanish: `_locales/es/messages.json`
 - 🇫🇷 French: `_locales/fr/messages.json`
+- 🇮🇹 Italian: `_locales/it/messages.json`
+- 🇯🇵 Japanese: `_locales/ja/messages.json`
 
 Additional languages can be added by providing more `_locales/<locale>/messages.json` files following the WebExtension i18n format.
 
@@ -82,8 +85,14 @@ thunderbird-trash-bulk-delete/
 │   │   │   └── messages.json   # German translations
 │   │   ├── en/
 │   │   │   └── messages.json   # English translations
-│   │   └── fr/
-│   │       └── messages.json   # French translations
+│   │   ├── es/
+│   │   │   └── messages.json   # Spanish translations
+│   │   ├── fr/
+│   │   │   └── messages.json   # French translations
+│   │   ├── it/
+│   │   │   └── messages.json   # Italian translations
+│   │   └── ja/
+│   │       └── messages.json   # Japanese translations
 │   └── icons/                  # Extension icons
 └── releases/                   # Release builds
 ```

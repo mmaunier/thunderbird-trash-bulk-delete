@@ -1,0 +1,26 @@
+{
+  "extensionName": {
+    "message": "Elimina Cestino"
+  },
+  "extensionDescription": {
+    "message": "Elimina tutti i messaggi dalle cartelle Cestino e Spam (tranne locale)."
+  },
+  "logStart": {
+    "message": "Eliminazione messaggi da Cestino e Spam in corso..."
+  },
+  "logDeleted": {
+    "message": "Messaggio con oggetto \"{subject}\" è stato eliminato."
+  },
+  "logNoLocalAccount": {
+    "message": "Account locale non trovato."
+  },
+  "logComplete": {
+    "message": "Operazione completata: {count} messaggio/i eliminato/i."
+  },
+  "logError": {
+    "message": "Errore durante l'eliminazione del messaggio {id}: {error}"
+  },
+  "logAlreadyRunning": {
+    "message": "Eliminazione già in corso, attendere prego..."
+  }
+}

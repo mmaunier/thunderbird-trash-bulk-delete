@@ -1,0 +1,26 @@
+{
+  "extensionName": {
+    "message": "ゴミ箱を削除"
+  },
+  "extensionDescription": {
+    "message": "すべてのアカウント（ローカルを除く）のゴミ箱と迷惑メールフォルダからすべてのメッセージを削除します。"
+  },
+  "logStart": {
+    "message": "ゴミ箱と迷惑メールのメッセージを削除中..."
+  },
+  "logDeleted": {
+    "message": "件名「{subject}」のメッセージが削除されました。"
+  },
+  "logNoLocalAccount": {
+    "message": "ローカルアカウントが見つかりません。"
+  },
+  "logComplete": {
+    "message": "操作完了：{count}件のメッセージが削除されました。"
+  },
+  "logError": {
+    "message": "メッセージ{id}の削除エラー：{error}"
+  },
+  "logAlreadyRunning": {
+    "message": "削除はすでに実行中です。お待ちください..."
+  }
+}

@@ -3,8 +3,8 @@
     "trash-bulk-delete@mmaunier.github.io": {
       "updates": [
         {
-          "version": "0.1.4",
-          "update_link": "https://github.com/mmaunier/thunderbird-trash-bulk-delete/releases/download/v0.1/thunderbird-trash-bulk-delete-v0.1.4.xpi",
+          "version": "0.1.5",
+          "update_link": "https://github.com/mmaunier/thunderbird-trash-bulk-delete/releases/download/v0.1/thunderbird-trash-bulk-delete-v0.1.5.xpi",
           "applications": {
             "gecko": {
               "strict_min_version": "140.0"
