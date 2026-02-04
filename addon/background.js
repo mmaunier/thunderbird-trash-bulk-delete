@@ -16,9 +16,13 @@ async function findTrashAndJunkFolders(folders) {
   let foldersFound = [];
 
   for (let folder of folders) {
+    // Debug: logger tous les dossiers pour diagnostic
+    console.log(`[DEBUG] Dossier: ${folder.path || folder.name}, Type: ${folder.type}`);
+    
     // Inclure les dossiers de type Trash ou Junk
     if (folder.type === "trash" || folder.type === "junk") {
       foldersFound = foldersFound.concat([folder]);
+      console.log(`[FOUND] Dossier trouvé: ${folder.path || folder.name} (${folder.type})`);
     }
     if (folder.subFolders && folder.subFolders.length > 0) {
       foldersFound = foldersFound.concat(await findTrashAndJunkFolders(folder.subFolders));
