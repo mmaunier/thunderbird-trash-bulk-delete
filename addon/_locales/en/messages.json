@@ -19,5 +19,8 @@
   },
   "logError": {
     "message": "Error deleting message {id}: {error}"
+  },
+  "logAlreadyRunning": {
+    "message": "Deletion already in progress, please wait..."
   }
 }

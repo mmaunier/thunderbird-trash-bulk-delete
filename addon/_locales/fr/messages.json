@@ -19,5 +19,8 @@
   },
   "logError": {
     "message": "Erreur lors de la suppression du message {id} : {error}"
+  },
+  "logAlreadyRunning": {
+    "message": "Suppression déjà en cours, veuillez patienter..."
   }
 }

@@ -19,5 +19,8 @@
   },
   "logError": {
     "message": "Fehler beim Löschen der Nachricht {id}: {error}"
+  },
+  "logAlreadyRunning": {
+    "message": "Löschvorgang läuft bereits, bitte warten..."
   }
 }

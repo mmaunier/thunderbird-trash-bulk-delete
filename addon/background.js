@@ -122,6 +122,16 @@ async function deleteTrashAndJunkMessages() {
   console.log(formatMessage(template, { count: deletedCount }));
 }
 
+// Verrou pour éviter les exécutions multiples simultanées
+let isDeleting = false;
+
 browser.browserAction.onClicked.addListener(() => {
-  deleteTrashAndJunkMessages().catch(console.error);
+  if (isDeleting) {
+    console.log(getMessage("logAlreadyRunning"));
+    return;
+  }
+  isDeleting = true;
+  deleteTrashAndJunkMessages()
+    .catch(console.error)
+    .finally(() => { isDeleting = false; });
 });
