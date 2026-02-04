@@ -1,0 +1,23 @@
+{
+  "extensionName": {
+    "message": "Papierkorb löschen"
+  },
+  "extensionDescription": {
+    "message": "Löscht alle Trash- und Junk-Nachrichten aus allen Konten."
+  },
+  "logStart": {
+    "message": "Lösche Nachrichten aus Trash und Junk..."
+  },
+  "logDeleted": {
+    "message": "Nachricht mit Betreff \"{subject}\" wurde gelöscht."
+  },
+  "logNoLocalAccount": {
+    "message": "Lokales Konto nicht gefunden."
+  },
+  "logComplete": {
+    "message": "Vorgang abgeschlossen: {count} Nachricht(en) gelöscht."
+  },
+  "logError": {
+    "message": "Fehler beim Löschen der Nachricht {id}: {error}"
+  }
+}

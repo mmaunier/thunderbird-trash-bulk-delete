@@ -1,0 +1,23 @@
+{
+  "extensionName": {
+    "message": "Delete Trash"
+  },
+  "extensionDescription": {
+    "message": "Deletes all Trash and Junk messages from all accounts."
+  },
+  "logStart": {
+    "message": "Deleting messages from Trash and Junk..."
+  },
+  "logDeleted": {
+    "message": "Message with subject \"{subject}\" has been deleted."
+  },
+  "logNoLocalAccount": {
+    "message": "Local account not found."
+  },
+  "logComplete": {
+    "message": "Operation complete: {count} message(s) deleted."
+  },
+  "logError": {
+    "message": "Error deleting message {id}: {error}"
+  }
+}

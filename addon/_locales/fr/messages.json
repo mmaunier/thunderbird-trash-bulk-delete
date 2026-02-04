@@ -1,0 +1,23 @@
+{
+  "extensionName": {
+    "message": "Supprimer Corbeille"
+  },
+  "extensionDescription": {
+    "message": "Supprime tous les messages des dossiers Corbeille et Spam (sauf local)."
+  },
+  "logStart": {
+    "message": "Suppression des messages de Corbeille et Spam en cours..."
+  },
+  "logDeleted": {
+    "message": "Message avec le sujet \"{subject}\" a été supprimé."
+  },
+  "logNoLocalAccount": {
+    "message": "Compte local non trouvé."
+  },
+  "logComplete": {
+    "message": "Opération terminée : {count} message(s) supprimé(s)."
+  },
+  "logError": {
+    "message": "Erreur lors de la suppression du message {id} : {error}"
+  }
+}
