@@ -64,7 +64,7 @@ These permissions are required to scan folders and delete messages from Trash an
 **Supported languages:**
 - 🇩🇪 German: `_locales/de/messages.json`
 - 🇬🇧 English: `_locales/en/messages.json`
-- �🇸 Spanish: `_locales/es/messages.json`
+- 🇪🇸 Spanish: `_locales/es/messages.json`
 - 🇫🇷 French: `_locales/fr/messages.json`
 - 🇮🇹 Italian: `_locales/it/messages.json`
 - 🇯🇵 Japanese: `_locales/ja/messages.json`

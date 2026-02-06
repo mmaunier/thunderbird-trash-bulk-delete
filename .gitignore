@@ -1,0 +1,9 @@
+# Scripts de développement
+create_emoji_icons.sh
+
+# Fichiers temporaires
+*.tmp
+*.temp
+
+# Fichiers de build
+*.xpi.tmp
